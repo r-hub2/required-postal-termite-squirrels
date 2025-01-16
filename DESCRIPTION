@@ -1,0 +1,19 @@
+Package: squirrels
+Title: Tools to Analyse NYC Squirrels
+Version: 0.0.0.9000
+Authors@R: 
+    person("Arthur", "Bréant", , "arthur@thinkr.fr", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0000-0000-0000"))
+Description: Tools and graphs to analyse nyc squirrels and more.
+License: MIT + file LICENSE
+Imports: glue, stringr
+Suggests: knitr, rmarkdown, testthat
+VignetteBuilder: knitr
+Config/fusen/version: 0.6.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+NeedsCompilation: no
+Packaged: 2025-01-16 14:54:45 UTC; rstudio
+Author: Arthur Bréant [aut, cre] (<https://orcid.org/0000-0000-0000-0000>)
+Maintainer: Arthur Bréant <arthur@thinkr.fr>
